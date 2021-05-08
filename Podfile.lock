@@ -1,0 +1,66 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookSDK (4.42.0):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit (= 4.42.0)
+    - FacebookSDK/MarketingKit (= 4.42.0)
+  - FacebookSDK/CoreKit (4.42.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit
+  - FacebookSDK/MarketingKit (4.42.0):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit
+  - FBSDKCoreKit (4.42.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.42.0):
+    - FBSDKCoreKit
+  - FBSDKMarketingKit (4.38.0):
+    - FBSDKCoreKit
+  - OneSignal (2.9.5)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/UI (1.17.1):
+    - Parse/Core
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Bolts
+  - FacebookSDK
+  - FBSDKLoginKit
+  - OneSignal (< 3.0, >= 2.6.2)
+  - Parse
+  - Parse/UI
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - FacebookSDK
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - OneSignal
+    - Parse
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookSDK: d9f24642746a46b059406a24b898670edce52e4e
+  FBSDKCoreKit: aa42f1c384775f8b075f53a43080474278e9701d
+  FBSDKLoginKit: 373830c68aa48c9e8f0bfed93a3e32d2ca8963a0
+  FBSDKMarketingKit: e609f39d74ab273cf52e2f8b7e8829ed412b2827
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 750650b5e82cae07da32b1c0e223b40026e47dd2
+
+COCOAPODS: 1.6.1
